@@ -1,0 +1,6 @@
+  name: BookWatcher
+  main: Ppeerapon.BookWatcher.Main
+  version: 1.0
+  commands:
+    BookWatcher:
+      aliases: bw
