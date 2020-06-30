@@ -73,7 +73,7 @@ public class Main extends JavaPlugin implements Listener {
                     p.sendMessage(ChatColor.GREEN + "[BW] BookWatcher is enable");
                 } else {
                     BookWatcher.remove(uuid);
-                    p.sendMessage(ChatColor.GREEN + "[BW] BookWatcher is disable");
+                    p.sendMessage(ChatColor.RED + "[BW] BookWatcher is disable");
                 }
             } else {
                 p.sendMessage("You don't have permission");
